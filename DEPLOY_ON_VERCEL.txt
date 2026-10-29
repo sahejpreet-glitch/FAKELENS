@@ -1,0 +1,15 @@
+FAKELENS - Vercel frontend deployment
+
+1. Extract this ZIP on your computer.
+2. Upload the extracted project to a GitHub repository (all project files, including package.json, src/, public/ if present, and vercel.json).
+3. Open https://vercel.com/new and import that repository.
+4. Framework Preset: Vite
+5. Root Directory: leave blank if package.json is at the repository root.
+6. Build Command: npm run build
+7. Output Directory: dist
+8. Click Deploy.
+
+Important:
+- This deploys the frontend interface only. It does not repair or deploy the Python backend.
+- The current project may show integration/demo UI and may not persist data or run AI validation until backend/API integration is configured and tested.
+- Do not claim AI verification is working unless you have tested it end-to-end.
